@@ -7,6 +7,16 @@ body {
     background-color: black;
     color: azure;
 }
+.font-bold text-center {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+a {
+    text-decoration-line: none;
+    color: black;
+}
 header {
     font-weight: bolder;
     font-size: larger;
