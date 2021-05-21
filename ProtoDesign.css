@@ -1,11 +1,17 @@
-body{
+body {
+    background-color: azure;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
+.dark-mode{
+    background-color: black;
+    color: azure;
+}
+header {
     font-weight: bolder;
     font-size: larger;
     align-content: center;
 }
-nav{
+nav {
     padding:0.01em 16px;
 }
