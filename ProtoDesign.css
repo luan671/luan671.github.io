@@ -17,6 +17,9 @@ a.resume button, a.CL button {
     text-decoration: none;
     color: black;
 }
+a.resume button, a.CL button:hover {
+    color:brown;
+}
 header {
     font-weight: bolder;
     font-size: larger;
