@@ -76,7 +76,7 @@ label.darkmode {
     display: block;
     border: none;
     border-radius: 50px;
-    background-color: rgb(235, 255, 255);
+    background-color: inherit;
     margin: auto;
 }
 .techniques{
