@@ -29,13 +29,13 @@ nav {
     padding:0.01em 16px;
 }
 button.darkmode {
-    z-index: 20;
     background-color: white;
     border: 2px solid #555;
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
-    position: fixed;
+    position: absolute;
+    right: 0;
     transition: all ease-in-out 0.3s;
     width: 60px;
     height: 30px;
@@ -44,4 +44,16 @@ button.darkmode {
 .intro{
     padding: 2rem;
     display: block;
+    border: 2px solid #555;
+    border-radius: 50px;
+    background-color: lightsteelblue;
+}
+.techniques{
+    display: inline-block;
+    padding: 3rem;
+    align-self: center;
+}
+h2{
+    text-align: center;
+    font-size: larger;
 }
