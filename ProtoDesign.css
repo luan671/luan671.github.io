@@ -15,7 +15,6 @@ body {
 }
 a.resumebutton, a.CLbutton {
     text-decoration: none;
-    color: black;
 }
 a.resumebutton:hover, a.CLbutton:hover {
     color:brown;
@@ -39,7 +38,6 @@ button.darkmode {
     transition: all ease-in-out 0.3s;
     width: 60px;
     height: 30px;
-    margin: 20px;
 }
 .intro{
     padding: 2rem;
