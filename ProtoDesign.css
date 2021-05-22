@@ -56,7 +56,7 @@ button.darkmode {
 img.profile{
     float: left;
     width: 30%;
-    padding: 20px
+    border-radius: 50%;
 }
 div.intropara{
     float: left;
