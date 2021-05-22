@@ -76,12 +76,11 @@ label.darkmode {
     display: block;
     border: none;
     border-radius: 50px;
-    background-color: rgb(189, 204, 223);
+    background-color: rgb(235, 255, 255);
     margin: auto;
 }
 .techniques{
     display: inline-block;
-    padding: 3rem;
     align-self: center;
     width: 90%;
 }
@@ -108,4 +107,8 @@ img.logos {
     max-width: 200px;
     height: 150px;
     padding: 30px;
+}
+.projects {
+    width: 90%;
+
 }
