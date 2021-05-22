@@ -80,9 +80,8 @@ label.darkmode {
     margin: auto;
 }
 .techniques{
-    display: inline-block;
+    margin: auto;
     align-self: center;
-    width: 90%;
 }
 img.profile{
     display: flexbox;
