@@ -41,3 +41,7 @@ button.darkmode {
     height: 30px;
     margin: 20px;
 }
+.intro{
+    padding: 2rem;
+    display: block;
+}
