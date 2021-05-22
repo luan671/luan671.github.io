@@ -17,7 +17,7 @@ a.resumebutton, a.CLbutton {
     text-decoration: none;
     color: black;
 }
-a.resumebutton, a.CLbutton:hover {
+a.resumebutton:hover, a.CLbutton:hover {
     color:brown;
 }
 header {
