@@ -28,7 +28,7 @@ nav {
     padding:50px;
     font-size: xx-large;
 }
-button.darkmode {
+label.darkmode {
     background-color: white;
     border: 2px solid #555;
     border-radius: 50px;
@@ -37,15 +37,15 @@ button.darkmode {
     position: absolute;
     right: 0;
     transition: all ease-in-out 0.3s;
-    width: 60px;
-    height: 30px;
+    width: 90px;
+    height: 60px;
 }
 .intro{
     padding: 2rem;
     display: block;
-    border: 2px solid #555;
+    border: none;
     border-radius: 50px;
-    background-color: lightsteelblue;
+    background-color: rgb(189, 204, 223);
 }
 .techniques{
     display: inline-block;
@@ -57,7 +57,7 @@ img.profile{
     float: left;
     width: 30%;
     border-radius: 50%;
-    padding-top: 0; padding-left: 0;
+    padding-top: 0; padding-left: 0; padding-right: 30px;
 }
 div.intropara{
     float: left;
