@@ -40,12 +40,17 @@ label.darkmode {
     width: 90px;
     height: 60px;
 }
+.darkmode input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
 .slider {
     cursor: pointer;
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #3d3d3d;
   }
   
   .slider:before {
@@ -62,6 +67,7 @@ label.darkmode {
     border: none;
     border-radius: 50px;
     background-color: rgb(189, 204, 223);
+    margin: auto;
 }
 .techniques{
     display: inline-block;
@@ -70,10 +76,12 @@ label.darkmode {
     text-align: center;
 }
 img.profile{
+    display: flexbox;
     float: left;
     width: 30%;
     border-radius: 50%;
     padding-top: 0; padding-left: 0; padding-right: 30px;
+
 }
 div.intropara{
     float: left;
