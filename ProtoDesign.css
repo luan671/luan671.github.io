@@ -13,11 +13,11 @@ body {
     font-weight: bold;
     text-align: center;
 }
-a.resume button, a.CL button {
+a.resumebutton, a.CLbutton {
     text-decoration: none;
     color: black;
 }
-a.resume button, a.CL button:hover {
+a.resumebutton, a.CLbutton:hover {
     color:brown;
 }
 header {
@@ -27,4 +27,17 @@ header {
 }
 nav {
     padding:0.01em 16px;
+}
+button.darkmode {
+    z-index: 20;
+    background-color: white;
+    border: 2px solid #555;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    transition: all ease-in-out 0.3s;
+    width: 60px;
+    height: 30px;
+    margin: 20px;
 }
