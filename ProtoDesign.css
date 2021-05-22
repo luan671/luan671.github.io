@@ -35,7 +35,7 @@ label.darkmode {
     cursor: pointer;
     display: inline-block;
     position: absolute;
-    right: 0;
+    right: 50px;
     transition: all ease-in-out 0.3s;
     width: 90px;
     height: 60px;
