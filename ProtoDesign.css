@@ -95,6 +95,11 @@ img.logos {
 }
 img.pimg {
     max-width: 30%;
-    align-self: auto;
+    height: 250px;
+    display: block;
     margin: auto;
+    opacity: 70%;
+}
+img.pimg:hover{
+    opacity: 100%;
 }
