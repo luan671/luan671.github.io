@@ -103,3 +103,12 @@ img.pimg {
 img.pimg:hover{
     opacity: 100%;
 }
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #555;
+    color: azure;
+    text-align: center;
+}
