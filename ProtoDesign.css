@@ -94,7 +94,8 @@ img.logos {
     width: 90%;
 
 }
-a.plink {
+img.pimg {
     max-width: 30%;
     align-self: auto;
+    margin: auto;
 }
