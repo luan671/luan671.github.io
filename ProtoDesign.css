@@ -28,6 +28,9 @@ nav {
     padding:50px;
     font-size: xx-large;
 }
+h1{
+    text-align: center;
+}
 label.darkmode {
     background-color: white;
     border: 2px solid #555;
@@ -77,8 +80,8 @@ h2{
     font-size: larger;
 }
 img.logos {
-    display: flexbox;
-    max-width: 15%;
+    max-width: 25%;
+    max-height: 200px;
     padding: 30px;
 }
 .projects {
