@@ -50,6 +50,10 @@ label.darkmode {
     width: 0;
     height: 0;
 }
+span.modefont {
+    text-align: center;
+    font-size: small;
+}
 .intro{
     padding: 2rem;
     display: block;
