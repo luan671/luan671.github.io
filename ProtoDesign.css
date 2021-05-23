@@ -97,7 +97,6 @@ img.pimg {
     max-width: 30%;
     height: 250px;
     display: block;
-    margin: auto;
     opacity: 70%;
 }
 img.pimg:hover{
