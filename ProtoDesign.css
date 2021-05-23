@@ -90,3 +90,7 @@ img.logos {
     width: 90%;
 
 }
+a.plink {
+    max-width: 30%;
+    align-self: auto;
+}
