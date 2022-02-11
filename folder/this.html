@@ -8,13 +8,13 @@
     </audio>
 
     <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(211, 211, 91); font-size: x-large;" onload="popup()">
-    <div style="margin: auto; font-size: larger; margin-top: 450px; width: fit-content; text-align: center;" id="select1">
+    <div style="margin: auto; font-size: larger; margin-top: 400px; width: fit-content; text-align: center;" id="select1">
         <p>Now, tell me who you are</p>
             <input type="text" placeholder="what is your name" id="inputname">
             <button id="btn">Mi??</button>
     </div>
 
-    <div style="margin: auto; margin-top: 300px;" id='box'>
+    <div style="margin: auto; margin-top: 30px; text-align: center;" id='box'>
         
     </div>
 
@@ -36,7 +36,7 @@
         document.getElementById('btn').onclick = name;
         function name() {
             var wawaname = document.getElementById("inputname").value;
-            document.getElementById('box').innerHTML = "something";
+            document.getElementById('box').innerHTML = "Hi " + wawaname + " , I'm &#128034!!!";
         }
         //document.getElementById("select1").innerHTML = "sth";
     </script>
